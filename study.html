@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
+<html> <!-- The root element that wraps the whole page -->
+<head> <!-- Contains information about the page (not shown directly) -->
+  <title>My First Webpage</title> <!-- Sets the title shown in the browser tab -->
+
+  <style> <!-- CSS styling starts here -->
+    body { /* Styles the whole page */
+      font-family: Arial, sans-serif; /* Sets the text font */
+      margin: 20px; /* Adds space around the page */
+      background-color: #f9f9f9; /* Light gray background */
+    }
+
+    header { /* Styles the top header area */
+      background-color: #e3f2fd; /* Light blue background */
+      padding: 15px; /* Space inside the header */
+      border-radius: 8px; /* Rounded corners */
+    }
+
+    nav a { /* Styles the links inside the navigation */
+      margin: 0 10px; /* Adds space between links */
+      text-decoration: none; /* Removes underline */
+      color: #333; /* Dark gray text color */
+    }
+
+    main { /* Styles the main content area */
+      display: flex; /* Places sections and sidebar side by side */
+      gap: 10px; /* Space between them */
+      margin-top: 15px; /* Space above main area */
+    }
+
+    section { /* Styles each section of content */
+      flex: 3; /* Makes section take more space than sidebar */
+      background-color: #fff3e0; /* Light orange background */
+      padding: 10px; /* Space inside section */
+      border-radius: 6px; /* Rounded corners */
+    }
+
+    aside { /* Styles the sidebar area */
+      flex: 1; /* Sidebar takes less space */
+      background-color: #fffde7; /* Light yellow background */
+      padding: 10px; /* Space inside sidebar */
+      border-radius: 6px; /* Rounded corners */
+    }
+
+    footer { /* Styles the bottom footer area */
+      background-color: #ede7f6; /* Light purple background */
+      text-align: center; /* Centers the text */
+      padding: 10px; /* Space inside footer */
+      margin-top: 15px; /* Space above footer */
+      border-radius: 8px; /* Rounded corners */
+    }
+  </style> <!-- CSS styling ends here -->
+</head>
+
+<body> <!-- The visible content of the page starts here -->
+
+  <header> <!-- Top section of the page -->
+    <h1>Welcome to My Website</h1> <!-- Big title -->
+    <nav> <!-- Navigation menu -->
+      <a href="#home">Home</a> | <!-- Link to Home section -->
+      <a href="#about">About</a> | <!-- Link to About section -->
+      <a href="#contact">Contact</a> <!-- Link to Contact section -->
+    </nav>
+  </header>
+
+  <main> <!-- Main content area -->
+    <section id="home"> <!-- First section -->
+      <h2>Home Section</h2> <!-- Section title -->
+      <p>This is the main content of my page.</p> <!-- Paragraph text -->
+    </section>
+
+    <section id="about"> <!-- Second section -->
+      <h2>About Section</h2> <!-- Section title -->
+      <article> <!-- Independent piece of content -->
+        <h3>My Story</h3> <!-- Article title -->
+        <p>I am learning HTML and CSS step by step!</p> <!-- Article text -->
+      </article>
+    </section>
+
+    <aside> <!-- Sidebar area -->
+      <h2>Sidebar</h2> <!-- Sidebar title -->
+      <p>Extra info or ads can go here.</p> <!-- Sidebar text -->
+    </aside>
+  </main>
+
+  <footer> <!-- Bottom section of the page -->
+    <p>&copy; 2026 My First Webpage</p> <!-- Copyright -->
+  </footer>
+
+</body>
+</html>
